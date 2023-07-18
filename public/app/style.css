@@ -11,13 +11,12 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+
 .container {
-    position: absolute;
-    height: 562px;
-    width: 350px;
-    left: 580px;
-    top: 30px; 
+    margin: 0 auto;
+    margin-top: 3em;
 }
+
 .header{
     background-color: #fff;
     border: 1px solid #e6e6e6;
@@ -26,6 +25,8 @@ body {
     width: 350px;
     letter-spacing: 2px;
     box-shadow: 2px 2px rgba(167, 167, 167, 0.06);
+    margin: 0 auto;
+
 }
 
 h1 {
@@ -125,6 +126,8 @@ span {
     top: 10px;
     box-shadow: 2px 2px rgba(167, 167, 167, 0.06);
     text-align: center;
+    margin: 0 auto;
+
 }
 
 .question p {
@@ -150,6 +153,8 @@ span {
     position: relative;
     top: 20px;
     text-align: center;
+    margin: 0 auto;
+
 }
 
 .image p {
@@ -179,12 +184,16 @@ footer {
     background-color: #fafafa;
     position: relative;
     top: 650px;
+    margin: 0 auto;
 }
 
 footer ul {
     position: relative;
     top: 40px;
     left: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer li {
