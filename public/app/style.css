@@ -208,3 +208,14 @@ footer li {
     position: relative;
     left: 100px;
 }
+
+@media screen and (max-width: 1024px){
+    .header,
+    .login,
+    .question,
+    footer,
+    .image{
+        width: 100vw !important;  
+        margin: 0 auto;
+    }
+}
